@@ -9,8 +9,73 @@
     <title>Travel Application</title>
 </head>
 <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
     
+    <!-- hero section -->
+    <section class="bg-main bg-color hero-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-6 d-flex flex-column justify-content-center align-content-start">
+            <h1 class="text-capitalize fw-bold">
+              We collect high quality leads.
+            </h1>
+            <p class="text-body px-2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Etiam sit amet nisl purus in mollis nunc sed id. Quam quisque id diam vel quam. Sodales ut eu sem integer. 
+              Volutpat sed cras ornare arcu dui vivamus. Eu non diam phasellus vestibulum lorem. 
+              Integer vitae justo eget magna fermentum iaculis eu non. Quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus. 
+              Magna fermentum iaculis eu non diam phasellus vestibulum lorem sed. Fusce id velit ut tortor pretium viverra suspendisse potenti nullam. 
+              Amet venenatis urna cursus eget.
+            </p>
+            <div class="text-center">
+              <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-title="Default tooltip">
+                Contact Us
+              </button>
+            </div>
+            
+          </div>
+
+          <!-- hero section image -->
+          <div class="col-12 col-md-12 col-lg-6 d-flex flex-column justify-content-center align-content-start">
+            <div class="text-center text-lg-end">
+              <video class="hero-video--section" src="Assets/hero.mp4" loop muted autoplay>
+                Browser does not support video.
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      const tooltipList = [tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+    <script src="js/index.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

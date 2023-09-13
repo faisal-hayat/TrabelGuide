@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#navbar{
+    background: #f9f9f9;
+}
+
+:root{
+    --bs-dark-color: #1a1d20;
+    --bs-dark-primary: #1c1c1c;
+    --bs-main-color: #fff;
+    --bs-primary-color: #c6c6c6;
+    --bs-supporting-color: #c650c0;
+}
+
+h1, h2, h3, h4, h5{
+    color: var(--bs-dark-color);
+    font-family: 'Urbanist', sans-serif;
+}
+
+h1{
+    font-size: 3.8rem;
+}
+
+h2{
+    line-height: 3rem;
+    font-weight: 600;
+    font-size: 3.4rem;
+}
+
+p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--bs-dark-color);
+    letter-spacing: 0.07rem;
+    line-height: 1.55rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.hero-video--section{
+    max-width: 100%;
+    height: auto;
+    width: 60rem;
+    border-radius: 2rem;
+}
+
+/* hero section container */
+.hero-section .container{
+    display: grid;
+    place-content: center;
+    height: inherit;
+}
+
+.bg-main{
+    height: 80vh;
+    position: relative;
+}
