@@ -71,3 +71,45 @@ li{
     height: 80vh;
     position: relative;
 }
+
+.bg-color{
+    background-color: var(--bs-dark-primary);
+}
+
+button, a{
+    font-size: 1.15rem;
+    letter-spacing: 0.03rem;
+    word-spacing: 0.1rem;
+}
+
+.custom-shape-divider-bottom-1694614879 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1694615063 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1694615063 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 169px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1694615063 .shape-fill {
+    fill: #FFFFFF;
+}
