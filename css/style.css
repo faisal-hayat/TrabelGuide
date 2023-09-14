@@ -136,3 +136,22 @@ button, a{
     background-color: #1089ff;
     color: var(--bs-main-color);
 }
+
+.card-box:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24 px;
+}
+
+.more-info-section{
+    background-attachment: fixed;
+    overflow: hidden;
+    padding: 6rem 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(22, 22, 22, 0.9), rgba(22, 22, 22, 0.9)), url("");
+}
+
+.more-info-section .img-section img{
+    width: 70%;
+
+}
