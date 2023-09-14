@@ -141,6 +141,7 @@ button, a{
     box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24 px;
 }
 
+/* showcase section */
 .more-info-section{
     background-attachment: fixed;
     overflow: hidden;
@@ -153,5 +154,6 @@ button, a{
 
 .more-info-section .img-section img{
     width: 70%;
-
 }
+
+/*  */
