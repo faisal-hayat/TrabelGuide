@@ -113,3 +113,26 @@ button, a{
 .custom-shape-divider-bottom-1694615063 .shape-fill {
     fill: #FFFFFF;
 }
+
+
+/*  Service Section */
+.common-heading{
+    font-size: 2.8rem;
+    letter-spacing: 0.03rem;
+    word-spacing: 0.1rem;
+}
+
+.common-title{
+    margin-bottom: 4.2rem;
+}
+
+.service-section{
+    padding: 6rem 0 3rem 0;
+}
+
+.icon-span{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #1089ff;
+    color: var(--bs-main-color);
+}
