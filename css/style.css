@@ -156,4 +156,7 @@ button, a{
     width: 70%;
 }
 
-/*  */
+/* common section */
+.bussiness-section{
+    padding-top: 3rem;
+}
